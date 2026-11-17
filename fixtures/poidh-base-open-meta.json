@@ -1,0 +1,13 @@
+{
+  "captured_at": "2026-11-17T18:24:00-05:00",
+  "source": "https://indexer.poidh.xyz/api/v1/bounties?chainId=8453",
+  "body": {
+    "chain_id": 8453,
+    "newest_frontend_id": 1557,
+    "in_progress_count": 103,
+    "note": "Payouts are ETH on Base (not USDC) via poidh createClaim / issuer accept. IRL, social, pay-to-play, and stacked items are common. Two claims already filed by this operator (#1550, #1551) are omitted from the 'open for us' count.",
+    "payout_token": "ETH",
+    "payout_network": "eip155:8453",
+    "escrow": "on-chain bounty contract"
+  }
+}

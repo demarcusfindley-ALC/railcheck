@@ -1,0 +1,23 @@
+{
+  "captured_at": "2026-11-17T18:24:00-05:00",
+  "source": "https://gofrantic.com/feed.json",
+  "body": {
+    "version": "https://jsonfeed.org/version/1.1",
+    "title": "Frantic \u00b7 open bounties",
+    "items": [
+      {
+        "id": "https://gofrantic.com/bounties/p-ce0199eecf",
+        "url": "https://gofrantic.com/bounties/p-ce0199eecf",
+        "title": "#97 Your first bounty is on the house ($10 back when it clears, first five) \u00b7 $10",
+        "_frantic": {
+          "number": 97,
+          "price_usd": 10,
+          "claim_slots": {
+            "available": 2,
+            "capacity": 5
+          }
+        }
+      }
+    ]
+  }
+}

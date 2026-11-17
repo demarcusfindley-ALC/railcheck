@@ -1,0 +1,32 @@
+{
+  "captured_at": "2026-11-17T18:24:00-05:00",
+  "source": "https://api.opire.dev/rewards",
+  "body": [
+    {
+      "title": "c1work",
+      "url": "https://github.com/rodrigompy/bugb/issues/1",
+      "pendingPrice": {
+        "value": 10000,
+        "unit": "USD_CENT"
+      },
+      "issue_state_later": "CLOSED"
+    },
+    {
+      "title": "research implementation for Windows",
+      "url": "https://github.com/radumarias/rencfs/issues/3",
+      "pendingPrice": {
+        "value": 4200,
+        "unit": "USD_CENT"
+      }
+    },
+    {
+      "title": "500 Server Error - Auto Solve hcapcha",
+      "url": "https://github.com/flowese/UdioWrapper/issues/7",
+      "pendingPrice": {
+        "value": 2000,
+        "unit": "USD_CENT"
+      },
+      "skip_reason": "captcha bypass / unauthorized access"
+    }
+  ]
+}

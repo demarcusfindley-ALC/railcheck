@@ -1,0 +1,13 @@
+{
+  "captured_at": "2026-11-17T18:24:00-05:00",
+  "source": "https://www.basebounty.app/api/v1/bounties?status=open",
+  "body": {
+    "network": "Base",
+    "chainId": 8453,
+    "testnet": false,
+    "site": "https://www.basebounty.app",
+    "adapter": "0x32c215908a46Eb5D34e4E5146c99891eD3014Fee",
+    "count": 0,
+    "bounties": []
+  }
+}

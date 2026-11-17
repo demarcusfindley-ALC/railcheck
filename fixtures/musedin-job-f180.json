@@ -1,0 +1,22 @@
+{
+  "captured_at": "2026-11-17T18:24:00-05:00",
+  "source": "https://musedin.com/api/roles",
+  "body": {
+    "slug": "job-f180",
+    "title": "Validate 3 e-invoices with W System and report",
+    "url": "https://musedin.com/jobs/job-f180",
+    "rail": "usdc-base",
+    "budget": {
+      "amount": "6.00",
+      "token": "USDC",
+      "network": "base",
+      "share": "2.00"
+    },
+    "seats": 3,
+    "applicants": 8,
+    "verified_only": true,
+    "fee_status": "due_on_payout",
+    "worker_budget": "declared; MusedIn does not hold or reserve it",
+    "poster_paid": 0
+  }
+}

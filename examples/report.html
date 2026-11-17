@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<title>Railcheck report (offline)</title>
+<style>
+body { font-family: ui-sans-serif, system-ui, sans-serif; margin: 2rem; color: #111; }
+table { border-collapse: collapse; width: 100%; font-size: 0.9rem; }
+th, td { border: 1px solid #ddd; padding: 0.4rem 0.5rem; vertical-align: top; }
+th { text-align: left; background: #f4f4f4; }
+code { background: #f4f4f4; padding: 0.1rem 0.3rem; }
+.meta { color: #444; }
+</style>
+</head><body>
+<h1>Railcheck report</h1>
+<p class="meta">Mode: offline · Generated: 2026-11-17T18:37:08.071818-05:00</p>
+<p>Findings 13 · Base USDC yes/conditional/no: 0/3/10 · On-chain escrow 3</p>
+<table>
+<thead><tr><th>Board</th><th>Title</th><th>Token</th><th>Chain</th><th>Amount</th><th>Escrow</th><th>Base USDC?</th><th>Walls</th><th>Notes</th></tr></thead>
+<tbody>
+<tr><td>basebounty</td><td>Open BaseBounty listings: 0</td><td>—</td><td>eip155:8453</td><td>0</td><td>none</td><td>no</td><td>—</td><td>Adapter 0x32c215908a46Eb5D34e4E5146c99891eD3014Fee on Base. Zero open at capture.</td></tr><tr><td>bountycaster</td><td>Open bounties list is empty</td><td>—</td><td>—</td><td>0 open</td><td>unknown</td><td>no</td><td>—</td><td>GET /api/v1/bounties/open returned {&quot;bounties&quot;:[]}.</td></tr><tr><td>frantic</td><td>#97 Your first bounty is on the house ($10 back when it clears, first five) · $10</td><td>USDC</td><td>eip155:8453</td><td>10 USD; slots {&#x27;available&#x27;: 2, &#x27;capacity&#x27;: 5}</td><td>onchain</td><td>conditional</td><td>speedbot_or_frantic_agent_account, email_or_github_verification, fund_a_bounty_to_earn_rebate</td><td>Frantic pays USDC on Base after judgment. This open listing is a rebate for funding work, not ordinary task pay.</td></tr><tr><td>githubbounties</td><td>sutt/innocuous#1 Make an example (funded)</td><td>USDC</td><td>unknown</td><td>3.000000</td><td>onchain</td><td>conditional</td><td>github_account</td><td>Only funded rows are claimable after a merged PR. Chain of payout is the board&#x27;s, not verified from this compact fixture.</td></tr><tr><td>githubbounties</td><td>admin-metaverseprofessional/metaverse-professional-website#4  (settled)</td><td>USDC</td><td>unknown</td><td>2.000000</td><td>none</td><td>no</td><td>—</td><td>Only funded rows are claimable after a merged PR. Chain of payout is the board&#x27;s, not verified from this compact fixture.</td></tr><tr><td>githubbounties</td><td>admin-metaverseprofessional/metaverse-professional-website#1  (settled)</td><td>USDC</td><td>unknown</td><td>2.000000</td><td>none</td><td>no</td><td>—</td><td>Only funded rows are claimable after a merged PR. Chain of payout is the board&#x27;s, not verified from this compact fixture.</td></tr><tr><td>githubbounties</td><td>admin-metaverseprofessional/vitrine#10  (settled)</td><td>USDC</td><td>unknown</td><td>3.330000</td><td>none</td><td>no</td><td>—</td><td>Only funded rows are claimable after a merged PR. Chain of payout is the board&#x27;s, not verified from this compact fixture.</td></tr><tr><td>githubbounties</td><td>admin-metaverseprofessional/vitrine#6  (settled)</td><td>USDC</td><td>unknown</td><td>2.000000</td><td>none</td><td>no</td><td>—</td><td>Only funded rows are claimable after a merged PR. Chain of payout is the board&#x27;s, not verified from this compact fixture.</td></tr><tr><td>musedin</td><td>Validate 3 e-invoices with W System and report</td><td>USDC</td><td>eip155:8453</td><td>6.00 total, 2.00 per seat, 3 seats</td><td>declared_not_held</td><td>conditional</td><td>musedin_account, paid_agent_verification_via_card</td><td>Not escrowed (declared; MusedIn does not hold or reserve it). Poster paid-hire count=0. Applicants=8.</td></tr><tr><td>opire</td><td>c1work</td><td>USD_CENT</td><td>offchain</td><td>10000 USD cents</td><td>off_platform</td><td>no</td><td>opire_account, off_platform_payment_arranged_by_parties</td><td>Opire docs: payments are arranged directly, not automatic on-chain USDC. Issue later observed CLOSED.</td></tr><tr><td>opire</td><td>research implementation for Windows</td><td>USD_CENT</td><td>offchain</td><td>4200 USD cents</td><td>off_platform</td><td>no</td><td>opire_account, off_platform_payment_arranged_by_parties</td><td>Opire docs: payments are arranged directly, not automatic on-chain USDC.</td></tr><tr><td>opire</td><td>500 Server Error - Auto Solve hcapcha</td><td>USD_CENT</td><td>offchain</td><td>2000 USD cents</td><td>off_platform</td><td>no</td><td>opire_account, off_platform_payment_arranged_by_parties</td><td>captcha bypass / unauthorized access</td></tr><tr><td>poidh</td><td>Base poidh in-progress: 103 (newest #1557)</td><td>ETH</td><td>eip155:8453</td><td>varies; ETH not USDC</td><td>onchain</td><td>no</td><td>onchain_claim_gas_in_base_eth</td><td>Payouts are ETH on Base (not USDC) via poidh createClaim / issuer accept. IRL, social, pay-to-play, and stacked items are common. Two claims already filed by this operator (#1550, #1551) are omitted from the &#x27;open for us&#x27; count.</td></tr>
+</tbody>
+</table>
+<p>Verdicts are from public, unauthenticated pages and fixtures. They are not payment promises. Source JSON is the canonical record.</p>
+<pre>{
+  &quot;total&quot;: 13,
+  &quot;skipped&quot;: 2,
+  &quot;receivable_base_usdc_yes&quot;: 0,
+  &quot;receivable_base_usdc_conditional&quot;: 3,
+  &quot;receivable_base_usdc_no&quot;: 10,
+  &quot;onchain_escrow&quot;: 3,
+  &quot;boards&quot;: [
+    &quot;basebounty&quot;,
+    &quot;bountycaster&quot;,
+    &quot;frantic&quot;,
+    &quot;githubbounties&quot;,
+    &quot;musedin&quot;,
+    &quot;opire&quot;,
+    &quot;poidh&quot;
+  ]
+}</pre>
+</body></html>

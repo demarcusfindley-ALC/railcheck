@@ -1,0 +1,225 @@
+{
+  "generated_at": "2026-11-17T18:37:08.071818-05:00",
+  "mode": "offline",
+  "summary": {
+    "total": 13,
+    "skipped": 2,
+    "receivable_base_usdc_yes": 0,
+    "receivable_base_usdc_conditional": 3,
+    "receivable_base_usdc_no": 10,
+    "onchain_escrow": 3,
+    "boards": [
+      "basebounty",
+      "bountycaster",
+      "frantic",
+      "githubbounties",
+      "musedin",
+      "opire",
+      "poidh"
+    ]
+  },
+  "findings": [
+    {
+      "board": "basebounty",
+      "source": "https://www.basebounty.app/api/v1/bounties?status=open",
+      "title": "Open BaseBounty listings: 0",
+      "url": "https://www.basebounty.app",
+      "token": null,
+      "chain": "eip155:8453",
+      "amount": "0",
+      "escrow": "none",
+      "receivable_base_usdc": "no",
+      "walls": [],
+      "notes": "Adapter 0x32c215908a46Eb5D34e4E5146c99891eD3014Fee on Base. Zero open at capture.",
+      "skip": false
+    },
+    {
+      "board": "bountycaster",
+      "source": "https://www.bountycaster.xyz/api/v1/bounties/open",
+      "title": "Open bounties list is empty",
+      "url": "https://www.bountycaster.xyz/",
+      "token": null,
+      "chain": null,
+      "amount": "0 open",
+      "escrow": "unknown",
+      "receivable_base_usdc": "no",
+      "walls": [],
+      "notes": "GET /api/v1/bounties/open returned {\"bounties\":[]}.",
+      "skip": false
+    },
+    {
+      "board": "frantic",
+      "source": "https://gofrantic.com/feed.json",
+      "title": "#97 Your first bounty is on the house ($10 back when it clears, first five) \u00b7 $10",
+      "url": "https://gofrantic.com/bounties/p-ce0199eecf",
+      "token": "USDC",
+      "chain": "eip155:8453",
+      "amount": "10 USD; slots {'available': 2, 'capacity': 5}",
+      "escrow": "onchain",
+      "receivable_base_usdc": "conditional",
+      "walls": [
+        "speedbot_or_frantic_agent_account",
+        "email_or_github_verification",
+        "fund_a_bounty_to_earn_rebate"
+      ],
+      "notes": "Frantic pays USDC on Base after judgment. This open listing is a rebate for funding work, not ordinary task pay.",
+      "skip": false
+    },
+    {
+      "board": "githubbounties",
+      "source": "https://githubbounties.xyz/api/v1/bounties?limit=100",
+      "title": "sutt/innocuous#1 Make an example (funded)",
+      "url": "https://github.com/sutt/innocuous/issues/1",
+      "token": "USDC",
+      "chain": "unknown",
+      "amount": "3.000000",
+      "escrow": "onchain",
+      "receivable_base_usdc": "conditional",
+      "walls": [
+        "github_account"
+      ],
+      "notes": "Only funded rows are claimable after a merged PR. Chain of payout is the board's, not verified from this compact fixture.",
+      "skip": false
+    },
+    {
+      "board": "githubbounties",
+      "source": "https://githubbounties.xyz/api/v1/bounties?limit=100",
+      "title": "admin-metaverseprofessional/metaverse-professional-website#4  (settled)",
+      "url": "https://github.com/admin-metaverseprofessional/metaverse-professional-website/issues/4",
+      "token": "USDC",
+      "chain": "unknown",
+      "amount": "2.000000",
+      "escrow": "none",
+      "receivable_base_usdc": "no",
+      "walls": [],
+      "notes": "Only funded rows are claimable after a merged PR. Chain of payout is the board's, not verified from this compact fixture.",
+      "skip": false
+    },
+    {
+      "board": "githubbounties",
+      "source": "https://githubbounties.xyz/api/v1/bounties?limit=100",
+      "title": "admin-metaverseprofessional/metaverse-professional-website#1  (settled)",
+      "url": "https://github.com/admin-metaverseprofessional/metaverse-professional-website/issues/1",
+      "token": "USDC",
+      "chain": "unknown",
+      "amount": "2.000000",
+      "escrow": "none",
+      "receivable_base_usdc": "no",
+      "walls": [],
+      "notes": "Only funded rows are claimable after a merged PR. Chain of payout is the board's, not verified from this compact fixture.",
+      "skip": false
+    },
+    {
+      "board": "githubbounties",
+      "source": "https://githubbounties.xyz/api/v1/bounties?limit=100",
+      "title": "admin-metaverseprofessional/vitrine#10  (settled)",
+      "url": "https://github.com/admin-metaverseprofessional/vitrine/issues/10",
+      "token": "USDC",
+      "chain": "unknown",
+      "amount": "3.330000",
+      "escrow": "none",
+      "receivable_base_usdc": "no",
+      "walls": [],
+      "notes": "Only funded rows are claimable after a merged PR. Chain of payout is the board's, not verified from this compact fixture.",
+      "skip": false
+    },
+    {
+      "board": "githubbounties",
+      "source": "https://githubbounties.xyz/api/v1/bounties?limit=100",
+      "title": "admin-metaverseprofessional/vitrine#6  (settled)",
+      "url": "https://github.com/admin-metaverseprofessional/vitrine/issues/6",
+      "token": "USDC",
+      "chain": "unknown",
+      "amount": "2.000000",
+      "escrow": "none",
+      "receivable_base_usdc": "no",
+      "walls": [],
+      "notes": "Only funded rows are claimable after a merged PR. Chain of payout is the board's, not verified from this compact fixture.",
+      "skip": false
+    },
+    {
+      "board": "musedin",
+      "source": "https://musedin.com/api/roles",
+      "title": "Validate 3 e-invoices with W System and report",
+      "url": "https://musedin.com/jobs/job-f180",
+      "token": "USDC",
+      "chain": "eip155:8453",
+      "amount": "6.00 total, 2.00 per seat, 3 seats",
+      "escrow": "declared_not_held",
+      "receivable_base_usdc": "conditional",
+      "walls": [
+        "musedin_account",
+        "paid_agent_verification_via_card"
+      ],
+      "notes": "Not escrowed (declared; MusedIn does not hold or reserve it). Poster paid-hire count=0. Applicants=8.",
+      "skip": false
+    },
+    {
+      "board": "opire",
+      "source": "https://api.opire.dev/rewards",
+      "title": "c1work",
+      "url": "https://github.com/rodrigompy/bugb/issues/1",
+      "token": "USD_CENT",
+      "chain": "offchain",
+      "amount": "10000 USD cents",
+      "escrow": "off_platform",
+      "receivable_base_usdc": "no",
+      "walls": [
+        "opire_account",
+        "off_platform_payment_arranged_by_parties"
+      ],
+      "notes": "Opire docs: payments are arranged directly, not automatic on-chain USDC. Issue later observed CLOSED.",
+      "skip": true
+    },
+    {
+      "board": "opire",
+      "source": "https://api.opire.dev/rewards",
+      "title": "research implementation for Windows",
+      "url": "https://github.com/radumarias/rencfs/issues/3",
+      "token": "USD_CENT",
+      "chain": "offchain",
+      "amount": "4200 USD cents",
+      "escrow": "off_platform",
+      "receivable_base_usdc": "no",
+      "walls": [
+        "opire_account",
+        "off_platform_payment_arranged_by_parties"
+      ],
+      "notes": "Opire docs: payments are arranged directly, not automatic on-chain USDC.",
+      "skip": false
+    },
+    {
+      "board": "opire",
+      "source": "https://api.opire.dev/rewards",
+      "title": "500 Server Error - Auto Solve hcapcha",
+      "url": "https://github.com/flowese/UdioWrapper/issues/7",
+      "token": "USD_CENT",
+      "chain": "offchain",
+      "amount": "2000 USD cents",
+      "escrow": "off_platform",
+      "receivable_base_usdc": "no",
+      "walls": [
+        "opire_account",
+        "off_platform_payment_arranged_by_parties"
+      ],
+      "notes": "captcha bypass / unauthorized access",
+      "skip": true
+    },
+    {
+      "board": "poidh",
+      "source": "https://indexer.poidh.xyz/api/v1/bounties?chainId=8453",
+      "title": "Base poidh in-progress: 103 (newest #1557)",
+      "url": "https://poidh.xyz/base",
+      "token": "ETH",
+      "chain": "eip155:8453",
+      "amount": "varies; ETH not USDC",
+      "escrow": "onchain",
+      "receivable_base_usdc": "no",
+      "walls": [
+        "onchain_claim_gas_in_base_eth"
+      ],
+      "notes": "Payouts are ETH on Base (not USDC) via poidh createClaim / issuer accept. IRL, social, pay-to-play, and stacked items are common. Two claims already filed by this operator (#1550, #1551) are omitted from the 'open for us' count.",
+      "skip": false
+    }
+  ]
+}

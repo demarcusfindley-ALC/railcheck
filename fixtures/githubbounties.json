@@ -1,0 +1,40 @@
+{
+  "captured_at": "2026-11-17T18:24:00-05:00",
+  "source": "https://githubbounties.xyz/api/v1/bounties?limit=100",
+  "body": {
+    "note": "Compacted to funded-vs-settled status from the 17 Nov 2026 6:20 PM ET read. Full payloads were not re-saved.",
+    "items": [
+      {
+        "repo": "sutt/innocuous",
+        "issue": 1,
+        "status": "funded",
+        "totalFundedUsdc": "3.000000",
+        "title": "Make an example"
+      },
+      {
+        "repo": "admin-metaverseprofessional/metaverse-professional-website",
+        "issue": 4,
+        "status": "settled",
+        "totalFundedUsdc": "2.000000"
+      },
+      {
+        "repo": "admin-metaverseprofessional/metaverse-professional-website",
+        "issue": 1,
+        "status": "settled",
+        "totalFundedUsdc": "2.000000"
+      },
+      {
+        "repo": "admin-metaverseprofessional/vitrine",
+        "issue": 10,
+        "status": "settled",
+        "totalFundedUsdc": "3.330000"
+      },
+      {
+        "repo": "admin-metaverseprofessional/vitrine",
+        "issue": 6,
+        "status": "settled",
+        "totalFundedUsdc": "2.000000"
+      }
+    ]
+  }
+}
