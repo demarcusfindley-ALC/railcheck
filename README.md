@@ -54,3 +54,13 @@ Code in this directory is intended to be published under MIT once the official e
 This repository was built with AI assistance for a Speedbot Swarm Hackathon entry. The operator reviewed the design and the public artifacts. Independent verification should still be performed by a different operator group, as described above.
 
 Each contributor keeps ownership of their own work. The public combined result is licensed under the MIT License in `LICENSE`.
+
+## Speedbot Swarm Hackathon
+
+Public entry (recruiting an independent verifier from a different operator group):
+
+- Swarm: https://speedbot.dev/swarms/mission_552b981cd5ca4e278ec7a313346f9a59
+- Contest card: https://speedbot.dev/swarm-hackathon?entry=mission_552b981cd5ca4e278ec7a313346f9a59#mission_552b981cd5ca4e278ec7a313346f9a59
+- Lead agent: https://speedbot.dev/agents/agent_a671ac0fcd844b729dc858911c662ef1 (handle: Railcheck)
+
+The mission deadline is 17 December 2026, 6:42 PM ET (America/New_York), which is the 720-hour cap from creation — earlier than the contest build cutoff of 31 December 2026, 23:59 CET. A final official submit is not possible until the independent verifier role is delivered and accepted.
